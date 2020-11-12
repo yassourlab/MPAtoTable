@@ -7,12 +7,12 @@ At the end of the process all given MetaPhlAn3 output files will be sorted into 
 
 How to use?
 -----------
-####Commands
+#### Commands
 * Run tool (usage):
 ```
     ./metaphlan_runner <mpa_results.txt | folder/with/mpa/results> -f <taxonomical level> -o <out/dir/> [ADDITIONAL FLAGS][--help]
 ```
-####Examples
+#### Examples
 * Run tool on all mpa3 results in folder `my/mpa/folder` and filter only species (`-f s`). output results to `myResults/folder`
 ```
     ./metaphlan_runner my/mpa/folder -f s -o myResults/folder
@@ -36,11 +36,11 @@ To see more options and flags please run:
 `--help -h -H`  ---> View help and exit.
 `--copy -c`     ---> Copy mpa3 results instead of moving them.
 <br>
-####All available filters:
-`k`=kingdom
-`p`=phylum
-`c`=class
-`o`=order
-`f`=family
-`g`=genus
+#### All available filters:
+`k`=kingdom <br>
+`p`=phylum<br>
+`c`=class<br>
+`o`=order<br>
+`f`=family<br>
+`g`=genus<br>
 `s`=species
