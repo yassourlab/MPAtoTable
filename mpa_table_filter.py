@@ -48,7 +48,7 @@ def process_mpa(all_args):
     all_clades = set()
     with open(all_args.in_file) as in_file:
         tsv_reader = csv.reader(in_file, csv.excel_tab)
-        next(tsv_reader)    # skip first line
+        # next(tsv_reader)    # skip first line
 
         # create output file and header
         header = next(tsv_reader)
