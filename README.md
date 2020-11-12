@@ -3,8 +3,8 @@ MetaPhlAn3 filtretion by taxonomical level
 What is this?
 -------------
 This tool sorts and merges multiple MetaPhlAn3 output table files and creates a tab-seperated-value (.tsv) file with all results of the provided taxonomical level.
-At the end of the process all given MetaPhlAn3 output files will be sorted into /unknown and /results folders, where /unknown folder will contain all 100% unknown (unmatched) results files.
-**INPUT:** multiple MetaPhlAn3 output table files (Text file, usually ends with '.out')
+At the end of the process all given MetaPhlAn3 output files will be sorted into /unknown and /results folders, where /unknown folder will contain all 100% unknown (unmatched) results files.<br><br>
+**INPUT:** multiple MetaPhlAn3 output table files (Text file, usually ends with '.out')<br>
 **OUTPUT:** A single file, containing all organisms from provided files, fileterd to provided taxonomical level
 
 How to use?
